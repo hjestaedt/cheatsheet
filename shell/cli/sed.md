@@ -16,6 +16,7 @@
 `sed '10,13d' <input			# delete lines 10-13`  
 `sed '0,5!s/pattern/text/g' <input	# substitute all matches except for line 0-5`  
 `sed '/pattern/i text' <input		# insert line before matching line`  
+`sed '/pattern/!i text' <input		# insert line before all lines not matching`  
 `sed '/p1/,/p2/c text' <input		# replace lines matching p1 to p2 with text`  
 `sed '10,/pattern/d' <input		# delete lines from line 10 to matching line`  
 `sed '/pattern/,+5p' <input		# print matching line plus next 5 lines`  
@@ -39,8 +40,10 @@
 `sed '/pattern/d' <input`
 
 ###### __s - substitute first match/all matches on current line__
-`sed 's/pattern/text/' <input`  
-`sed 's/pattern/text/g' <input`
+`sed 's/pattern/text/' <input		# 1st match`  
+`sed 's/pattern/text/g' <input		# all matches`  
+`sed 's/pattern/text/3' <input		# 3rd match`  
+`#!bash sed -n 's/pattern/test/p' <input 	# print matching line`
 
 ###### __y - substitute characters on current line__
 `sed 'y/abc/ABC/' <input`
@@ -50,6 +53,9 @@
 
 ###### __e - execute matching line as command (and replace)__
 `sed '/pattern/e' <input`
+
+###### __w - write macthing line to file__
+`sed '/pattern/w file' <input`
 
 ###### __grouping commands__
 `sed '1,5{ /^$/d ; s/pattern/text/ }; 10,15{ s/pattern/text/ }' <input`
@@ -66,3 +72,6 @@
 ###### __custom separators__
 `sed 's_pattern_text_' <input`  
 `sed 's:/path:/new/path:' <input`
+
+###### __print line numbers__
+`sed '/pattern/=' <input`
