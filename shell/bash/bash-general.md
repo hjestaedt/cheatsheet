@@ -1,15 +1,21 @@
 # bash general
 
 ###### __configure login shell__
-`/etc/profile`  
-`~/.bash_profile`
+```bash
+/etc/profile
+~/.bash_profile
+```
 
 ###### __configure subshell__
-`/etc/bashrc`  
-`~/.bashrc`
+```bash
+/etc/bashrc
+~/.bashrc
+```
 
 ###### __help functions__
-`help`  
-`help builtin-name`  
-`info`  
-`info name`
+```bash
+help
+help builtin-name
+info
+info name
+```

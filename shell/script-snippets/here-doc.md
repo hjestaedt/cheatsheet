@@ -37,4 +37,6 @@ bar
 EOT
 ```
 
-`ctrl` `v` + `esc` generates `^[`
+```bash
+ctrl` `v` + `esc` generates `^[
+```
