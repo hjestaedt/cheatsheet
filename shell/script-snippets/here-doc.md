@@ -11,9 +11,9 @@ EOT
 
 ###### __ssh session__
 ```bash
-ssh vm-condor <<EOT
+ssh remote-host <<EOT
 echo "local working directory: $PWD"
-echo "remote working directory: __$PWD"
+echo "remote working directory: \$PWD"
 uptime
 EOT
 ```

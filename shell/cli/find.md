@@ -168,7 +168,7 @@ find . -exec command {} \;
 find . | xargs command
 ```
 
-###### __find and delete__ <span style="color: red; font-size: small;">(always put deletion command at the end of the line!)</span>__
+###### __find and delete__ <span style="color: red; font-size: small;">(always put deletion command at the end of the line!)</span>
 ```bash
 find . -type f -name "foobar" -delete
 find . -type f -name "foobar" -exec rm {} \;
@@ -178,7 +178,7 @@ find . -type f -name "foobar" -exec rm {} \;
 
 ###### __find files older than 14 days and gzip them__
 ```bash
-find . -mtime +14 -exec gzip {} __;
+find . -mtime +14 -exec gzip {} \;
 ```
 
 ###### __find and delete files with access time more than a year ago__
@@ -198,8 +198,8 @@ while true; do find . -type f -mtime -0; done
 
 ###### __fix file/directory permissions__
 ```bash
-find . -type f -perm 0777 -print -exec chmod 644 {} __;
-find . -type d -perm 0777 -print -exec chmod 755 {} __;
+find . -type f -perm 0777 -print -exec chmod 644 {} \;
+find . -type d -perm 0777 -print -exec chmod 755 {} \;
 ```
 
 ###### __size of all files bigger than 1G__
