@@ -1,4 +1,4 @@
-# bash functions
+# functions
 
 ###### __function definition__
 ```bash

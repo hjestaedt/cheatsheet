@@ -1,4 +1,4 @@
-# bash general
+# general
 
 ###### __configure login shell__
 ```bash

@@ -1,4 +1,4 @@
-# bash redirection
+# redirection
 
 ###### __show file descriptors of current bash session__
 ```bash

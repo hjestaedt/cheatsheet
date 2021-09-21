@@ -1,4 +1,4 @@
-# bash here doc
+# here doc
 
 ###### __basic here document (stdin redirection)__
 ```bash

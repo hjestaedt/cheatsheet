@@ -111,3 +111,8 @@ sed 's:/path:/new/path:' <input
 ```bash
 sed '/pattern/=' <input
 ```
+
+###### __instructions from file with variables__
+```bash
+sed -f <(var1='test' envsubst '$var1' < sed-script.sed) file
+```

@@ -1,4 +1,4 @@
-# bash options
+# options
 
 ###### __useful options__
 ```bash
