@@ -1,6 +1,6 @@
 # find
 
-#### __general__
+##### __general__
 
 ###### __find all below search path__
 ```bash
@@ -47,7 +47,7 @@ find . ( -name "*.pdf" -a -not -name "foobar.pdf" )
 find . -regex ".*/foo/.*.sh"
 ```
 
-#### __type/empty/hidden__
+##### __type/empty/hidden__
 
 ###### __find by file type__
 ```bash
@@ -65,7 +65,7 @@ find . -type f -empty
 find . -type f -name ".*"
 ```
 
-#### __user/group__
+##### __user/group__
 
 ###### __find by owner__
 ```bash
@@ -77,7 +77,7 @@ find . -user foobar
 find . -group foobar
 ```
 
-#### __permissions__
+##### __permissions__
 
 ###### __find executable files__
 ```bash
@@ -111,7 +111,7 @@ find . -perm -2000
 find . -perm -1000
 ```
 
-#### __timestamps__
+##### __timestamps__
 
 ###### __find modified last 24 hours ago__
 ```bash
@@ -147,7 +147,7 @@ find . -amin -10
 find . -atime +7 -atime -14
 ```
 
-#### __size__
+##### __size__
 
 ###### __find with size exactly/more than/less than 50MB__
 ```bash
@@ -156,7 +156,7 @@ find . -size +50M
 find . -size -50M
 ```
 
-#### __execute__
+##### __execute__
 
 ###### __find and execute (one command process per file)__
 ```bash
@@ -174,7 +174,7 @@ find . -type f -name "foobar" -delete
 find . -type f -name "foobar" -exec rm {} \;
 ```
 
-#### __useful examples__
+##### __useful examples__
 
 ###### __find files older than 14 days and gzip them__
 ```bash

@@ -35,5 +35,5 @@ shopt [option-name]
 shopt -o [option-name]
 ```
 
-###### __links__
+##### __links__
 [https://tldp.org/LDP/abs/html/options.html#OPTIONSTABLE](https://tldp.org/LDP/abs/html/options.html#OPTIONSTABLE)
