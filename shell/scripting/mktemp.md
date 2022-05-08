@@ -2,10 +2,20 @@
 
 ###### create a temporary file
 ```bash
-mktemp					# creates file /tmp/tmp.PlxvgEhcsw
-mktemp -d				# creates dir /tmp/tmp.1nbcQ2HZPN
-mktemp -q /tmp/foobar.XXX		# creates file /tmp/foobar.QVr
-mktemp -q --suffix bar /tmp/foo.XXX	# creates file /tmp/foo.WoZbar
+# create file in /tmp (e.g. /tmp/tmp.PlxvgEhcsw)
+mktemp
+
+# create dir in /tmp (e.g. /tmp/tmp.1nbcQ2HZPN)
+mktemp -d
+
+# create file with shorter suffix (e.g. /tmp/foobar.QVr)
+mktemp /tmp/foobar.XXX
+
+# create file with custom suffix (e.g. /tmp/tmp.GyijQde12a.TEMP)
+mktemp --suffix ".TEMP" 
+
+# create file in working directory
+mktemp --tmpdir=$(pwd) (e.g. /home/donhogo/tmp.pDCO25UfJu)
 ```
 
 ###### create a temporary file in a script
