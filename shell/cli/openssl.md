@@ -1,4 +1,4 @@
-# ssh-keygen
+# openssl 
 
 ###### __configuration for self-signed SAN cert__
 ```bash
