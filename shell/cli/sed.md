@@ -117,7 +117,7 @@ sed '/pattern/=' <input
 sed -f <(var1='test' envsubst '$var1' < sed-script.sed) file
 ```
 
-###### __usefull commands__
+###### __useful examples__ 
 ```bash
 sed 's/^<foo>\(.*\)<\/foo>/\1/' <input		# remove sourrounding xml tag
 ```
