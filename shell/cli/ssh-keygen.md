@@ -2,8 +2,9 @@
 
 ###### __create new keypair__
 ```bash
-ssh-keygen -t rsa -b 4096 -C "email@example.com"
-ssh-keygen -t ecdsa -b 521 -C "email@example.com"
+ssh-keygen -t rsa -b 4096 -C "comment"
+ssh-keygen -t ecdsa -b 521 -C "comment"
+ssh-keygen -t ed25519 -C "comment"
 ```
 
 ###### __generate public-key from private key__
