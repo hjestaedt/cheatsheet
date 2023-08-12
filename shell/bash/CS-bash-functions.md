@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/bash
+---
+
 # functions
 
 ###### __function definition__

@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/cli
+---
+
 # seq
 
 ###### __1 to 6__

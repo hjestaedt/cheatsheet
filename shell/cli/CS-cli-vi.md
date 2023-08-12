@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/cli
+---
+
 # vi
 
 ###### open files

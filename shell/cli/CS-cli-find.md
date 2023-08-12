@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/cli
+---
+
 # find
 
 ##### __general__

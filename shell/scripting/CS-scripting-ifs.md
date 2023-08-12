@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/scripting
+---
+
 # IFS (input/internal field separator)
 
 ###### print default IFS (whitespace, tab, newline)

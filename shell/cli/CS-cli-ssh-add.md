@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/cli
+---
+
 # ssh-add
 
 ###### __start ssh-agent with x-session (/etc/X11/Xsession.options)__

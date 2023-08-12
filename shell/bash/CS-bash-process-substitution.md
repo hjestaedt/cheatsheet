@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/bash
+---
+
 # process substitution
 
 ###### __disable posix compatibility to use process substitution__

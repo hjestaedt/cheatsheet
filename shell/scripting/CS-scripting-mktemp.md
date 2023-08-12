@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/scripting
+---
+
 # temporary files
 
 ###### create a temporary file

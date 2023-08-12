@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/scripting
+---
+
 # script setup
 
 ###### __path, directory and name of a script__

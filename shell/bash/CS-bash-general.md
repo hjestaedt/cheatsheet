@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/bash
+---
+
 # general
 
 ###### __configure login shell__

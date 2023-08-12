@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/bash
+---
+
 # redirection
 
 ###### __show file descriptors of current bash session__

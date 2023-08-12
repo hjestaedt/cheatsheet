@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/bash
+---
+
 # here doc
 
 ###### __basic here document (stdin redirection)__

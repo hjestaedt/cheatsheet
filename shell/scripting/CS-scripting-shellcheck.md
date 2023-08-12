@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/scripting
+---
+
 # shellcheck
 
 ##### config file

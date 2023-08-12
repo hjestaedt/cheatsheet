@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shortcuts
+---
+
 # bash vi-mode
 
 #### __move__

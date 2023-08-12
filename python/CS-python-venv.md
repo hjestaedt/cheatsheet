@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/python
+---
+
 # virtual environment
 
 ```bash

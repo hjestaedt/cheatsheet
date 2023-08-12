@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/scripting
+---
+
 # trap 
 
 ###### list of signals

@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/linux
+---
+
 # Miscellaneous
 
 ###### open new windows centered in Mate

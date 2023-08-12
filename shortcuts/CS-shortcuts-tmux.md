@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shortcuts
+---
+
 # tmux
 
 ###### __help__

@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/cli
+---
+
 # openssl 
 
 ###### __configuration for self-signed SAN cert__

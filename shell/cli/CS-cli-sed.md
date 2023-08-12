@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/cli
+---
+
 # sed
 
 ###### __general usage__

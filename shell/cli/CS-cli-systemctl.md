@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/cli
+---
+
 # systemctl
 
 ###### __show all services__

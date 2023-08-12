@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/bash
+---
+
 # options
 
 ###### __useful options__

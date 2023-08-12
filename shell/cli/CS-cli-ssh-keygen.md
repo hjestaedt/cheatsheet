@@ -1,3 +1,7 @@
+---
+tags: cheatsheet/shell/cli
+---
+
 # ssh-keygen
 
 ###### __create new keypair__
