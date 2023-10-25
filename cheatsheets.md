@@ -4,9 +4,6 @@ tags: cheatsheet linux python shell bash cli scripting shortcuts
 
 # Cheatsheets
 
-## linux
-[[CS-linux-misc]]
-
 ## python
 [[CS-python-venv]]
 
@@ -21,7 +18,7 @@ tags: cheatsheet linux python shell bash cli scripting shortcuts
 [[CS-bash-redirection]]
 
 ### cli
-[[CS-cli-docker]]
+[[CS-cli-diff]]
 [[CS-cli-find]]
 [[CS-cli-openssl]]
 [[CS-cli-sed]]
@@ -39,6 +36,4 @@ tags: cheatsheet linux python shell bash cli scripting shortcuts
 [[CS-scripting-trap]]
 
 ## shortcuts
-[[CS-shortcuts-tmux]]
-[[CS-shortcuts-bash-vi-mode]]
 [[CS-shortcuts-bash]]
