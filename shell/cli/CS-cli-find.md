@@ -210,3 +210,12 @@ find . -type d -perm 0777 -print -exec chmod 755 {} \;
 ```bash
 find . -size +1G -exec du -sh {} \;
 ```
+
+###### __find files and replace a string__
+```bash
+# exec command with all files as arguments
+find /path/to/directory -type f -exec sed -i 's/old_string/new_string/g' {} +   #
+
+# exec command for each file individually
+find /path/to/directory -type f -exec sed -i 's/old_string/new_string/g' {} \;  
+```
